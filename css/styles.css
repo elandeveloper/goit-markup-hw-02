@@ -56,7 +56,6 @@ button {
   font-weight: bold;
   font-size: 26px;
   line-height: 31px;
-  letter-spacing: 0.03em;
 }
 
 .logo-web {
@@ -70,6 +69,11 @@ button {
 /*Стили панели навигации*/
 .nav-link {
   color: var(--title-text-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .nav-link.current {
@@ -83,6 +87,10 @@ button {
 
 .address-link {
   color: var(--primary-text-color);
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .address-link:hover,
@@ -98,6 +106,7 @@ button {
 
 .hero-title {
   color: var(--white-text-color);
+  font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -109,24 +118,63 @@ button {
 .hero-btn {
   color: var(--white-text-color);
   background-color: var(--accent-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
 }
 
-/*Стили блока преимуществ*/
+/*Стили 
+Блок преимуществ
+Примеры работ
+Список сотрудников
+Лучшие работы студии
+*/
 
 .advantages-title,
 .examples-title,
-.team-title {
-  color: var(--title-text-color);
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
-  text-align: center;
-}
-
+.team-title,
 .advantages-item,
 .team-item,
 .works-title {
   color: var(--title-text-color);
+}
+
+.advantages-item {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.examples-title,
+.team-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+
+.team-item {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  /* identical to box height */
+
+  text-align: center;
+}
+
+.works-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
 }
 
 .advantages-content,
@@ -135,8 +183,53 @@ button {
   color: var(--primary-text-color);
 }
 
+.advantages-content {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.team-content {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.19;
+  /* identical to box height */
+
+  text-align: center;
+}
+
 .team {
   background-color: var(--add-background-color);
+}
+
+.works-content {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.87;
+}
+
+/*Стили 
+Блок преимуществ*/
+
+.categories-btn {
+  color: var(--title-text-color);
+  background-color: var(--add-background-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.categories-btn:hover,
+.categories-btn:focus {
+  color: var(--white-text-color);
+  background-color: var(--accent-color);
 }
 
 /*Стили футера*/
@@ -157,13 +250,10 @@ button {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.categories-btn {
-  color: var(--title-text-color);
-  background-color: var(--add-background-color);
-}
-
-.categories-btn:hover,
-.categories-btn:focus {
-  color: var(--white-text-color);
-  background-color: var(--accent-color);
+.address-footer,
+.footer-list .link {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
 }
